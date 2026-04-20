@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0f172a"/>
+  <rect x="48" y="40" width="200" height="28" rx="6" fill="#3b82f6"/>
+  <rect x="520" y="44" width="60" height="20" rx="4" fill="#334155"/>
+  <rect x="590" y="44" width="60" height="20" rx="4" fill="#334155"/>
+  <rect x="660" y="44" width="92" height="20" rx="4" fill="#334155"/>
+  <text x="48" y="140" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="36" font-weight="700">Welcome</text>
+  <text x="48" y="190" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="16">Digital solutions · Practice build</text>
+  <rect x="48" y="230" width="160" height="44" rx="22" fill="#2563eb"/>
+  <rect x="420" y="100" width="332" height="280" rx="20" fill="#1e293b" stroke="#334155"/>
+  <text x="400" y="480" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="14">Bilal Technical · Landing</text>
+</svg>

@@ -1,0 +1,55 @@
+/* ═══════════════════════════════════════════════════════════════
+   Theme tokens — toggled via <html data-theme="dark|light">
+   ═══════════════════════════════════════════════════════════════ */
+
+html[data-theme="dark"] {
+  --bg-primary: #080b12;
+  --bg-secondary: #0f1320;
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --text-primary: #f0f4ff;
+  --text-secondary: #8892a4;
+  --accent: #00d4ff;
+  --accent-glow: rgba(0, 212, 255, 0.15);
+  --accent-fg: #080b12;
+  --border: rgba(255, 255, 255, 0.08);
+  --glass: rgba(255, 255, 255, 0.05);
+  --shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  --mesh-a: rgba(0, 212, 255, 0.35);
+  --mesh-b: rgba(59, 130, 246, 0.18);
+  --noise-opacity: 0.045;
+}
+
+html[data-theme="light"] {
+  --bg-primary: #f8faff;
+  --bg-secondary: #eef2ff;
+  --bg-card: rgba(255, 255, 255, 0.8);
+  --text-primary: #0a0e1a;
+  --text-secondary: #5a6478;
+  --accent: #0066ff;
+  --accent-glow: rgba(0, 102, 255, 0.12);
+  --accent-fg: #ffffff;
+  --border: rgba(0, 0, 0, 0.08);
+  --glass: rgba(255, 255, 255, 0.7);
+  --shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  --mesh-a: rgba(0, 102, 255, 0.2);
+  --mesh-b: rgba(99, 102, 241, 0.12);
+  --noise-opacity: 0.03;
+}
+
+/* SSR / first paint: default dark before script runs */
+html:not([data-theme]) {
+  --bg-primary: #080b12;
+  --bg-secondary: #0f1320;
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --text-primary: #f0f4ff;
+  --text-secondary: #8892a4;
+  --accent: #00d4ff;
+  --accent-glow: rgba(0, 212, 255, 0.15);
+  --accent-fg: #080b12;
+  --border: rgba(255, 255, 255, 0.08);
+  --glass: rgba(255, 255, 255, 0.05);
+  --shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  --mesh-a: rgba(0, 212, 255, 0.35);
+  --mesh-b: rgba(59, 130, 246, 0.18);
+  --noise-opacity: 0.045;
+}

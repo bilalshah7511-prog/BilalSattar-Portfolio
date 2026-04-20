@@ -1,0 +1,14 @@
+Copy your PNG files here (same names as in your editor):
+
+  Profilephoto.png
+  Fadprojectimage.png
+  Fadprojectarticleimage.png
+  frecent project.png   (keep the space in the name)
+  bilal-technicalproject.png
+  movieproject.png
+  react-project.png
+  axiolistjs.png
+
+Optional: hero-preview.svg can stay in /public for other uses.
+
+Paths in code use /image/...  (e.g. /image/Profilephoto.png)

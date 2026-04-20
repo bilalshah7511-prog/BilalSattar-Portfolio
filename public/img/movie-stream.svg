@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0a1628"/>
+  <text x="48" y="120" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="32" font-weight="700">Unlimited Movies</text>
+  <text x="48" y="160" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="15">Stream · Practice UI</text>
+  <rect x="48" y="200" width="120" height="180" rx="12" fill="#1e3a5f"/>
+  <rect x="188" y="200" width="120" height="180" rx="12" fill="#312e81"/>
+  <rect x="328" y="200" width="120" height="180" rx="12" fill="#4c1d95"/>
+  <rect x="468" y="200" width="120" height="180" rx="12" fill="#831843"/>
+  <rect x="608" y="200" width="120" height="180" rx="12" fill="#0f766e"/>
+  <path d="M0 420 Q400 380 800 420 L800 500 L0 500 Z" fill="#f8fafc" fill-opacity="0.06"/>
+  <text x="400" y="480" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="14">Streaming landing · React</text>
+</svg>

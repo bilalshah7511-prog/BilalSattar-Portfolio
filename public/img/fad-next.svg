@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#f8fafc"/>
+  <rect x="40" y="36" width="720" height="48" rx="12" fill="#e2e8f0"/>
+  <rect x="40" y="108" width="340" height="28" rx="8" fill="#cbd5e1"/>
+  <rect x="40" y="156" width="420" height="22" rx="6" fill="#e2e8f0"/>
+  <rect x="40" y="210" width="360" height="240" rx="16" fill="#dbeafe"/>
+  <rect x="420" y="210" width="340" height="110" rx="14" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <rect x="420" y="340" width="340" height="110" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+  <text x="400" y="480" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="14">Healthcare · Next.js</text>
+</svg>

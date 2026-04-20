@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#030712"/>
+  <circle cx="400" cy="220" r="120" fill="#111827" stroke="#374151" stroke-width="2"/>
+  <circle cx="400" cy="220" r="70" fill="#1f2937"/>
+  <text x="400" y="100" text-anchor="middle" fill="#f9fafb" font-family="system-ui,sans-serif" font-size="30" font-weight="700">World Atlas</text>
+  <text x="400" y="360" text-anchor="middle" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="15">Explore countries · Search &amp; filter</text>
+  <rect x="80" y="390" width="200" height="72" rx="14" fill="#111827" stroke="#374151"/>
+  <rect x="300" y="390" width="200" height="72" rx="14" fill="#111827" stroke="#374151"/>
+  <rect x="520" y="390" width="200" height="72" rx="14" fill="#111827" stroke="#374151"/>
+  <text x="400" y="480" text-anchor="middle" fill="#6b7280" font-family="system-ui,sans-serif" font-size="13">React · REST data</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#f1f5f9"/>
+  <text x="400" y="72" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="28" font-weight="700">Recent Posts</text>
+  <rect x="120" y="100" width="560" height="44" rx="12" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="48" y="180" width="230" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="300" y="180" width="230" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="552" y="180" width="200" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="64" y="200" width="80" height="80" rx="12" fill="#dcfce7"/>
+  <rect x="64" y="300" width="180" height="12" rx="4" fill="#cbd5e1"/>
+  <rect x="64" y="322" width="140" height="10" rx="4" fill="#e2e8f0"/>
+  <circle cx="400" cy="250" r="6" fill="#16a34a"/>
+  <text x="400" y="480" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="14">Education · Blog UI</text>
+</svg>

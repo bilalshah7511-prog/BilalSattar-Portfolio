@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none">
+  <rect width="320" height="320" rx="48" fill="url(#g)"/>
+  <text x="160" y="188" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="72" font-weight="700" opacity="0.95">B</text>
+  <defs>
+    <linearGradient id="g" x1="60" y1="40" x2="280" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+</svg>
