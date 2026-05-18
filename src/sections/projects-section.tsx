@@ -22,6 +22,8 @@ function filterByTab(
   tab: (typeof TABS)[number]["id"],
 ) {
   if (tab === "all") return [...projects];
+  if (tab === "backend") return projects.filter((p) => p.stackCategory === "backend" || p.stackCategory === "fullstack");
+  if (tab === "frontend") return projects.filter((p) => p.stackCategory === "frontend" || p.stackCategory === "fullstack");
   return projects.filter((p) => p.stackCategory === tab);
 }
 

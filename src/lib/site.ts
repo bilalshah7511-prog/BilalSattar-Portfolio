@@ -26,7 +26,7 @@ I've contributed to healthcare and education platforms, built marketing landings
   cvUrl: process.env.NEXT_PUBLIC_CV_URL ?? "/document/BilalResume.pdf",
   stats: [
     { label: "Years Experience", value: 2, suffix: "+" },
-    { label: "Projects Done", value: 15, suffix: "+" },
+    { label: "Projects Done", value: 16, suffix: "+" },
     { label: "Happy Clients", value: 5, suffix: "+" },
   ] as const,
 } as const;
@@ -111,6 +111,18 @@ export const featuredProjects: Project[] = [
     imageAlt: "Axios list project",
     kind: "practice",
     stackCategory: "backend",
+  },
+  {
+    name: "BlogPanel",
+    description:
+      "Full-stack blog platform with admin approval workflow—users create blogs, admins approve for publishing, and real-time chat with socket.io notifications.",
+    stack: ["JavaScript","React", "Node.js", "Express", "Socket.io", "PostgreSQL", "REST APIs"],
+    image: "/image/Dashpro.png",
+    imageAlt: "BlogPanel dashboard and blog management interface",
+    kind: "production",
+    stackCategory: "fullstack",
+    liveUrl: "https://blogpanel-web.vercel.app/dashboard",
+    highlight: true,
   },
 ];
 
