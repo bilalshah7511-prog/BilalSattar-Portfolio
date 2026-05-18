@@ -140,11 +140,11 @@ export const featuredProjects: Project[] = [
 export const skillGroups = [
   {
     category: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+    skills: [ "JavaScript","React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express", "REST APIs", "MongoDB", "Python"],
+    skills: ["Node.js", "Express", "REST APIs", "MongoDB", "PostgreSQL", "Python"],
   },
   {
     category: "Tools",
