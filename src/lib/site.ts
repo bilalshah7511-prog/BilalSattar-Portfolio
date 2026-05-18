@@ -50,16 +50,15 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
   {
-    name: "FAD Next",
+    name: "Jesko Jets",
     description:
-      "Production Next.js app for healthcare teams—clear hierarchy, fast loads, and UI patterns that stay maintainable as the product grows.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    image: "/image/Fadprojectimage.png",
-    imageAlt: "FAD Next healthcare web application",
+      "Luxury private aviation platform—showcases aircraft fleet, booking system, and premium travel experience with 5,000+ missions across 150+ countries. Features ultra-long-range aircraft, 24/7 availability, and personalized services.",
+    stack: [ "React","Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express"],
+    image: "/image/jesko-jets.png",
+    imageAlt: "Jesko Jets private aviation platform",
     kind: "production",
     stackCategory: "fullstack",
-    liveUrl: "https://fadnext.foralldoctors.com",
-    repoUrl: process.env.NEXT_PUBLIC_GITHUB_URL,
+    liveUrl: "https://jesko-jets-drab.vercel.app",
   },
   {
     name: "Education Hub",
@@ -91,6 +90,18 @@ export const featuredProjects: Project[] = [
     kind: "practice",
     stackCategory: "frontend",
   },
+  // {
+  //   name: "FAD Next",
+  //   description:
+  //     "Production Next.js app for healthcare teams—clear hierarchy, fast loads, and UI patterns that stay maintainable as the product grows.",
+  //   stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+  //   image: "/image/Fadprojectimage.png",
+  //   imageAlt: "FAD Next healthcare web application",
+  //   kind: "production",
+  //   stackCategory: "fullstack",
+  //   liveUrl: "https://fadnext.foralldoctors.com",
+  //   repoUrl: process.env.NEXT_PUBLIC_GITHUB_URL,
+  // },
   {
     name: "StreamVerse",
     description:
@@ -123,17 +134,7 @@ export const featuredProjects: Project[] = [
     liveUrl: "https://blogpanel-web.vercel.app/dashboard",
     highlight: true,
   },
-  {
-    name: "Jesko Jets",
-    description:
-      "Luxury private aviation platform—showcases aircraft fleet, booking system, and premium travel experience with 5,000+ missions across 150+ countries. Features ultra-long-range aircraft, 24/7 availability, and personalized services.",
-    stack: [ "React","Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express"],
-    image: "/image/jesko-jets.png",
-    imageAlt: "Jesko Jets private aviation platform",
-    kind: "production",
-    stackCategory: "fullstack",
-    liveUrl: "https://jesko-jets-drab.vercel.app",
-  },
+  
 ];
 
 export const skillGroups = [
