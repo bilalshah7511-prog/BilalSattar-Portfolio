@@ -21,7 +21,7 @@ I've contributed to healthcare and education platforms, built marketing landings
   profileImage: "/Profile.png",
   profileAlt: "Bilal — developer portrait",
   linkedIn: process.env.NEXT_PUBLIC_LINKEDIN_URL ?? "https://www.linkedin.com/in/muhammad-bilal-shah-30950b405",
-  github: process.env.NEXT_PUBLIC_GITHUB_URL ?? "https://github.com",
+  github: process.env.NEXT_PUBLIC_GITHUB_URL ?? "https://github.com/bilalshah7511-prog",
   twitter: process.env.NEXT_PUBLIC_TWITTER_URL ?? "https://x.com",
   cvUrl: process.env.NEXT_PUBLIC_CV_URL ?? "/document/BilalResume.pdf",
   stats: [
