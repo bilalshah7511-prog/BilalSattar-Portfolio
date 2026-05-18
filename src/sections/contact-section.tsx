@@ -60,8 +60,10 @@ export function ContactSection() {
                     Email
                   </p>
                   <a
-                    href={`mailto:${site.email}`}
-                    className="text-lg font-semibold text-[var(--text-primary)] underline-offset-4 hover:underline"
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${site.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold text-[var(--text-primary)] underline-offset-4 hover:underline cursor-pointer"
                   >
                     {site.email}
                   </a>

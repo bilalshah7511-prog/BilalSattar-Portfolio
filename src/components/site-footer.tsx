@@ -50,13 +50,13 @@ export function SiteFooter() {
                 { href: site.github, label: "GitHub", Icon: FaGithub },
                 { href: site.linkedIn, label: "LinkedIn", Icon: FaLinkedin },
                 { href: site.twitter, label: "X", Icon: FaXTwitter },
-                { href: `mailto:${site.email}`, label: "Email", Icon: HiOutlineMail },
+                { href: `https://mail.google.com/mail/?view=cm&fs=1&to=${site.email}`, label: "Email", Icon: HiOutlineMail },
               ].map(({ href, label, Icon }) => (
                 <li key={label}>
                   <a
                     href={href}
-                    target={href.startsWith("mailto:") ? undefined : "_blank"}
-                    rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex h-11 w-11 items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--glass)] text-[var(--text-primary)] transition-[transform,box-shadow] hover:shadow-[0_0_18px_var(--accent-glow)]"
                     aria-label={label}
                   >

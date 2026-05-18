@@ -147,13 +147,13 @@ export function HeroSection() {
                 { href: site.github, label: "GitHub", Icon: FaGithub },
                 { href: site.linkedIn, label: "LinkedIn", Icon: FaLinkedin },
                 { href: site.twitter, label: "Twitter / X", Icon: FaXTwitter },
-                { href: `mailto:${site.email}`, label: "Email", Icon: HiOutlineMail },
+                { href: `https://mail.google.com/mail/?view=cm&fs=1&to=${site.email}`, label: "Email", Icon: HiOutlineMail },
               ].map(({ href, label, Icon }) => (
                 <li key={label} className="group relative">
                   <a
                     href={href}
-                    target={href.startsWith("mailto:") ? undefined : "_blank"}
-                    rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex h-12 w-12 items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--glass)] text-lg text-[var(--text-primary)] shadow-[var(--shadow)] backdrop-blur-xl transition-[transform,box-shadow] hover:-translate-y-0.5 hover:shadow-[0_0_24px_var(--accent-glow)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
                     aria-label={label}
                   >
