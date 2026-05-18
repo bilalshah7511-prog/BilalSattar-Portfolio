@@ -26,7 +26,7 @@ I've contributed to healthcare and education platforms, built marketing landings
   cvUrl: process.env.NEXT_PUBLIC_CV_URL ?? "/document/BilalResume.pdf",
   stats: [
     { label: "Years Experience", value: 2, suffix: "+" },
-    { label: "Projects Done", value: 16, suffix: "+" },
+    { label: "Projects Done", value: 17, suffix: "+" },
     { label: "Happy Clients", value: 5, suffix: "+" },
   ] as const,
 } as const;
@@ -60,7 +60,6 @@ export const featuredProjects: Project[] = [
     stackCategory: "fullstack",
     liveUrl: "https://fadnext.foralldoctors.com",
     repoUrl: process.env.NEXT_PUBLIC_GITHUB_URL,
-    highlight: true,
   },
   {
     name: "Education Hub",
@@ -123,6 +122,17 @@ export const featuredProjects: Project[] = [
     stackCategory: "fullstack",
     liveUrl: "https://blogpanel-web.vercel.app/dashboard",
     highlight: true,
+  },
+  {
+    name: "Jesko Jets",
+    description:
+      "Luxury private aviation platform—showcases aircraft fleet, booking system, and premium travel experience with 5,000+ missions across 150+ countries. Features ultra-long-range aircraft, 24/7 availability, and personalized services.",
+    stack: [ "React","Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express"],
+    image: "/image/jesko-jets.png",
+    imageAlt: "Jesko Jets private aviation platform",
+    kind: "production",
+    stackCategory: "fullstack",
+    liveUrl: "https://jesko-jets-drab.vercel.app",
   },
 ];
 
